@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class Person{
+            constructor(name,age,education,designation,location){
+                this.name =name;
+                this.age =age
+                this.education =education;
+                this.designation = designation;
+                this.location = location;
+                
+            } greet()
+            {
+                console.log(`I'm ${this.name} ${this.age} years old. I have pursued ${this.education} currently I'm a ${this.designation} studying FSD course in GUVI and I from ${this.location}.`);
+            }
+        }
+        let person = new Person("Barani",24,"B.E","student","erode");
+        person.greet();
+    </script>
+</body>
+</html>

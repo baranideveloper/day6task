@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class Uberprice{
+            constructor(destination,time)
+            {
+              this.destination=destination;
+              this.time=time;
+             }
+         pricecalc()
+        { 
+           let fare=12*(2+ this.destination-1)+2.75*this.time;
+            console.log("₹",fare);
+        }
+    }
+        let price= new Uberprice(10,1);
+        price.pricecalc();
+    </script>
+</body>
+</html>
